@@ -123,6 +123,7 @@ function material_sword_scripts() {
 	wp_enqueue_style( 'material-sword-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'material-sword-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'material-sword-materialize', get_template_directory_uri() . '/js/materialize/bin/materialize.min.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'material-sword-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
